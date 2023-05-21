@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IsadoraMalohlava</title>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/js.js" type="module"> </script>
+    
+</head>
+
+<body>
+ 
+    </div>
+    <div id="container">
+        <div id="coluna-esquerda">
+            <h1>DevInHouse</h1>
+            <h3>Cartilhas de conhecimento</h3>
+        
+            <form id="form-cartilhas"> 
+                <label for=" in-title" >Titulo </label> 
+                <input id=" in-title" 
+                name="title"
+                type="text" 
+                placeholder="Informe o texto" 
+                minlength="6"
+                maxlength="40"
+                required></input>
+                
+                
+                <label for="in-skill" >Linguagem/Skill </label> 
+                <input id="in-skill" 
+                    name="title" 
+                    type="text" 
+                    placeholder="Informe o texto" 
+                    required></input>
+
+                <label for="in-categoria" >Categoria </label> 
+                <select name="categoria" id="categoria" required>
+                    <option value="selecionar" selected >Selecione uma categoria</option>
+                    <option value="front-end">front-end</option>
+                    <option value="back-end">back-end</option>
+                    <option value="fullstack">fullstack</option>
+                    <option value="softskill">softskill</option>
+                    </select>
+                    
+                <label for="in-descrição" >Descrição </label>  
+                <textarea id="descricao" 
+                        minlength="15"
+                        maxlength="200"
+                        placeholder="Informe o texto" 
+                        required></textarea>
+
+                <div id="button-box"> 
+                    <button id=submit type="submit">Enviar!</button>
+                    <button id=reset type="reset">Limpar</button>
+                </div>
+            </form>
+        </div>
+        <div id="coluna-direita">
+            <input id="in-search" name="search" type="text" placeholder="Digite para pesquisar"> 
+            <button id="btn-search"> Pesquisar </button>
+            <button id="btn-clear-search"> Limpar </button>
+
+            <ul id="cartilhasList">
+            <li>
+                <h3>A arte de comunicar</h3>
+                <p><strong>Linguagem/Skill: </strong> CSS </p>
+                <p><strong>Categoria: </strong> SoftSkill </p>
+                <p>Um bom comunicador é sempre um bom ouvinte. Quem sabe ouvir não perde informações, faz perguntas apropriadas e entende seu interlocutor.
+
+                    Você pode criar empatia com frases como “Fale mais sobre esse tópico” ou “Estou interessado no que você diz. Fale mais detalhes para entender por que você pensa assim”.</p>
+            </li>
+                                    
+        </ul>
+    </div>
+</div>
+
+<footer class="'bg-warming">
+    <p class="pfooter">M1P1 Front-end </p>
+    <p class="pfooter">DevInHouse-EDP SENAI </p>
+    <p class="pfooter">Isadora Malohlava  </p>
+</footer>
+
+</div>
+
+</body>
+</html>
